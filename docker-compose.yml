@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  aspnetcore21angular6withssr:
+    image: ${DOCKER_REGISTRY}aspnetcore21angular6withssr
+    build:
+      context: .
+      dockerfile: Dockerfile

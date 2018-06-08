@@ -10,6 +10,8 @@
 
     <!-- Set this to true if you enable server-side prerendering -->
     <BuildServerSideRenderer>true</BuildServerSideRenderer>
+    <DockerComposeProjectPath>docker-compose.dcproj</DockerComposeProjectPath>
+    <UserSecretsId>f58da559-bfe0-4f6f-b220-fbf1664f4962</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
